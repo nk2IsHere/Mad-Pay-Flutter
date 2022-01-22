@@ -13,7 +13,10 @@ dependencies:
   flutter:
     sdk: flutter
   mad_pay_platform_interface: ^2.2.2
-  mad_pay_android: ^2.2.6
+  mad_pay_android:
+    git:
+     url: https://github.com/nk2IsHere/Mad-Pay-Flutter/
+     path: packages/mad_pay_android
   mad_pay_ios: ^2.2.3
 
 # For development. Remove/comment before publishing to pub.
